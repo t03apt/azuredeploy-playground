@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "rgLocation": {
+      "value": "WestEurope"
+    },
+    "rgName": {
+      "value": "tpapp-test"
+    },
+    "storageNames": {
+      "value": [
+        {
+          "name": "tpapptest1"
+        },
+        {
+          "name": "tpapptest2"
+        }
+      ]
+    }
+  }
+}
